@@ -19,80 +19,74 @@ El desarrollo de esta aplicación se realizó utilizando Cursor, un IDE potencia
 
 ## Del Diseño a la Implementación
 
-### Diseño en Figma
+### Comparativa de Pantallas
 
-#### Pantalla de Inicio
-![Pantalla de Inicio - Diseño Figma](assets/figma/home.png)
-
-
-#### Carnet Estudiantil
-![Carnet Estudiantil - Diseño Figma](assets/figma/carnet.png)
-
-#### Menú Principal
-![Menú Principal - Diseño Figma](assets/figma/menu.png)
-
-#### Perfil de Usuario
-![Perfil de Usuario - Diseño Figma](assets/figma/perfil.png)
-
-#### Bot Asistente
-![Bot Asistente - Diseño Figma](assets/figma/bot.png)
-
-#### Menú Lateral
-![Menú Lateral - Diseño Figma](assets/figma/menulateral.png)
-
-### Implementación Final
-
-#### Pantalla de Inicio
-![Pantalla de Inicio - Implementación](assets/screenshots/home.jpeg)
-
-#### Carnet Estudiantil
-![Carnet Estudiantil - Implementación](assets/screenshots/carnet.jpeg)
-
-#### Menú Principal
-![Menú Principal - Implementación](assets/screenshots/menu.jpeg)
-
-#### Perfil de Usuario
-![Perfil de Usuario - Implementación](assets/screenshots/perfil.jpeg)
-
-#### Bot Asistente
-![Bot Asistente - Implementación](assets/screenshots/bot.jpeg)
-
-#### Menú Lateral
-![Menú Lateral - Implementación](assets/screenshots/menulateral.jpeg)
-
-## 🧩 Características Implementadas
-
-### 1. Pantalla de Inicio (Home)
-- Header con menú hamburguesa y logo institucional
-- Buscador integrado
-- Sistema de notificaciones deslizable (3 páginas)
-- Sección "Próxima Clase"
-- Sección "Editar" con tres recuadros
-
-### 2. Carnet Estudiantil
-- Visualización digital del carnet
-- Diseño moderno con información del estudiante
-- Integración de fotografía
-
-### 3. Menú Principal
-- Diseño en cuadrícula con botones
-- Navegación intuitiva
-- Accesos directos a funcionalidades principales
-
-### 4. Perfil de Usuario
-- Información académica en tarjetas
-- Gestión de datos personales
-- Visualización de promedio con opción de ocultar
-
-### 5. Bot Asistente
-- Interfaz de chat interactiva
-- Mascota personalizada
-- Sistema de mensajería
-
-### 6. Menú Lateral (SlideBar)
-- Navegación principal
-- Opciones de configuración
-- Cerrar sesión
+<table>
+<tr>
+    <td><b>Diseño en Figma</b></td>
+    <td><b>Implementación Final</b></td>
+</tr>
+<tr>
+    <td>
+        <img src="assets/figma/home.png" alt="Pantalla de Inicio - Diseño Figma" width="400"/>
+        <p align="center"><i>Pantalla de Inicio</i></p>
+    </td>
+    <td>
+        <img src="assets/screenshots/home.jpeg" alt="Pantalla de Inicio - Implementación" width="400"/>
+        <p align="center"><i>Pantalla de Inicio</i></p>
+    </td>
+</tr>
+<tr>
+    <td>
+        <img src="assets/figma/carnet.png" alt="Carnet Estudiantil - Diseño Figma" width="400"/>
+        <p align="center"><i>Carnet Estudiantil</i></p>
+    </td>
+    <td>
+        <img src="assets/screenshots/carnet.jpeg" alt="Carnet Estudiantil - Implementación" width="400"/>
+        <p align="center"><i>Carnet Estudiantil</i></p>
+    </td>
+</tr>
+<tr>
+    <td>
+        <img src="assets/figma/menu.png" alt="Menú Principal - Diseño Figma" width="400"/>
+        <p align="center"><i>Menú Principal</i></p>
+    </td>
+    <td>
+        <img src="assets/screenshots/menu.jpeg" alt="Menú Principal - Implementación" width="400"/>
+        <p align="center"><i>Menú Principal</i></p>
+    </td>
+</tr>
+<tr>
+    <td>
+        <img src="assets/figma/perfil.png" alt="Perfil de Usuario - Diseño Figma" width="400"/>
+        <p align="center"><i>Perfil de Usuario</i></p>
+    </td>
+    <td>
+        <img src="assets/screenshots/perfil.jpeg" alt="Perfil de Usuario - Implementación" width="400"/>
+        <p align="center"><i>Perfil de Usuario</i></p>
+    </td>
+</tr>
+<tr>
+    <td>
+        <img src="assets/figma/bot.png" alt="Bot Asistente - Diseño Figma" width="400"/>
+        <p align="center"><i>Bot Asistente</i></p>
+    </td>
+    <td>
+        <img src="assets/screenshots/bot.jpeg" alt="Bot Asistente - Implementación" width="400"/>
+        <p align="center"><i>Bot Asistente</i></p>
+    </td>
+</tr>
+<tr>
+    <td>
+        <img src="assets/figma/menulateral.png" alt="Menú Lateral - Diseño Figma" width="400"/>
+        <p align="center"><i>Menú Lateral</i></p>
+    </td>
+    <td>
+        <img src="assets/screenshots/menulateral.jpeg" alt="Menú Lateral - Implementación" width="400"/>
+        <p align="center"><i>Menú Lateral</i></p>
+    </td>
+</tr>
+</table>
 
 ## 🛠️ Tecnologías Utilizadas
 - React Native
@@ -127,7 +121,7 @@ app/
 
 1. Clonar el repositorio:
 ```bash
-git clone [URL_DEL_REPOSITORIO]
+git clone https://github.com/ChristopherPalloArias/PALLO-CHRISTOPHER-CURSOR.git
 ```
 
 2. Instalar dependencias:
